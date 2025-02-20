@@ -7,7 +7,7 @@ import App from "./App";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <ChakraProvider>
-    <BrowserRouter>
+<BrowserRouter basename="/hotdog-house5">
       <App />
     </BrowserRouter>
   </ChakraProvider>
